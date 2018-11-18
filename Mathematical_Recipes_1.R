@@ -1,8 +1,5 @@
-library(xtable)
-library(stringi)
-library(stringr)
-library(readr)
-library(readxl)
+#----------------------------------------------R API---------------------------------------------------------
+library(xtable);library(stringi);library(stringr);library(readr);library(readxl)
 #------------------------------------------Data---------------------------------------------------------------
 recipe.actions<-c("Boil","Bake","Mix","Stir","Slice","Serve")
 ingredient.list<-c("water","quinoa")
@@ -12,6 +9,7 @@ measurement.temperature<-c("degrees F","degrees C")
 recipe.steps<-c(stri_join("Step 1 ",recipe.actions[3]," ","2"," ",measurement[3]," ",ingredient.list[2], " ","1"," ",measurement[3]," ",ingredient.list[1],".",
                           "Step 2 ",recipe.actions[1], " ",ingredient.list[1],".",
                           "Step 3 ",recipe.actions[6],"." ))
+#---------------------------Read Excel data on Nutrition in Classroom--------------------------------
 ABBREV <- read_excel("sr28abxl/ABBREV.xlsx")
 View(ABBREV)
 Nutrition.df<-as.data.frame(ABBREV)
@@ -22,12 +20,12 @@ Nutrition.Quinoa.Names.df<-rownames(Nutrition.Quinoa.df)
 Table.1<-xtable(Nutrition.Quinoa.df)
 Table.2<-recipe.assembly(ingredient.list,recipe.steps,"Quinoa Recipe 1")
 
-#----------------------------------------Figures--------------------------------------------------------------
+#-----------------------Figures for Presentation in Class--------------------------------------------------------------
 Figure.1<-barplot(as.numeric(Nutrition.Quinoa.Vitamins.df), xaxt='n',color="blue")
 Axis(side=1, at=1:length(Nutrition.Quinoa.Names.df[21:44]), 
      labels=Nutrition.Quinoa.Names.df[21:44],cex.axis=0.35)
 #----------------------------------------References-----------------------------------------------------------
-#----------------------------------------Function Library-----------------------------------------------------
+#--------Function Library to modify by students in the classroom-----------------------------------------------------
 
 recipe.assembly<-function(ingredient,recipe.steps,recipe.name){
   doc.type<-c("documentclass{recipecard}")
