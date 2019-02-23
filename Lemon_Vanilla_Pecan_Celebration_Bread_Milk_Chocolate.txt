@@ -8,8 +8,9 @@ e & 1.5 & cup & Water \\
 f & 3 & tbl &  Honey \\
 g & 0.5 & cup & Pecans \\
 h & 0.25 & cup & Flaxen Seeds \\
+i & 1 & tbl & Baking Powder \\
 
-\item Mix A=a,b,c,d,f,g,h
+\item Mix A=a,b,c,d,f,g,h,i
 \item Mix e and A with Baker's Ratio for Texture Preference
 \item Pour in Bread Pan with Coconut Oil Spray
 \item Bake 350 degrees for N minutes Preference 
