@@ -1,0 +1,16 @@
+Title: Lemon Vanilla Pecan Celebration Bread Milk Chocolate
+
+a & 2 & tbl & Lemon Extract \\
+b & 2 & tbl & Vanilla Extract \\
+c & 2 & cup of Flour \\
+d & 4 & medium & Eggs \\
+e & 1.5 & cup & Water \\
+f & 3 & tbl &  Honey \\
+g & 0.5 & cup & Pecans \\
+h & 0.25 & cup & Flaxen Seeds \\
+
+\item Mix A=a,b,c,d,f,g,h
+\item Mix e and A with Baker's Ratio for Texture Preference
+\item Pour in Bread Pan with Coconut Oil Spray
+\item Bake 350 degrees for N minutes Preference 
+\item Serve with Optional Milk Chocolate icing
