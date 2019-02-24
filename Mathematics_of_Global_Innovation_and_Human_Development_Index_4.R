@@ -1,8 +1,5 @@
-library(xtable)
-library(readxl)
-library(readr)
-library(mosaic)
-library(maps)
+#-----------------------------To Be Updated and Work in Progress-----------------------------------------
+library(xtable);library(readxl);library(readr);library(mosaic);library(maps)
 
 #-------------------------------------Data---------------------------------------------------------------
 data(world.cities)
