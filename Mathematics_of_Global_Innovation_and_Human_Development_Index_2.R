@@ -1,6 +1,5 @@
-library(xtable)
-library(readxl)
-library(readr)
+
+library(xtable);library(readxl);library(readr)
 
 #-------------------------------------Data---------------------------------------------------------------
 
