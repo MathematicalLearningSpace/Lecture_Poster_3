@@ -1,13 +1,6 @@
-library(xtable)
-library(sampling)
-library(igraph)
-library(Matrix)
-library(RCurl)
-library(XML)
-library(CHNOSZ)
-library(rpubchem)
-library(ChemmineR)
-library(readr)
+#-------------------------------------Notes in Progress and To Be Updated-------------------------------------------------------------
+library(xtable);library(sampling);library(igraph);library(Matrix);library(RCurl);library(XML);library(CHNOSZ);library(rpubchem)
+library(ChemmineR);library(readr)
 
 #---------------------------------Data-----------------------------------------------------
 data(thermo)
@@ -44,9 +37,11 @@ Nutrient.composition.Vitamins<-c('Thiamin',
                                  'Niacin',
                                  'Panthothenic Acid',
                                  'B6')
+
 Nutrient.composition.lipids<-c('FattyAcids.Saturated.Total',
                                'FattyAcids.Monounsaturated',
                                'FattyAcids.Polyunsaturated.Total')
+
 phytochemicals<-c("a-Cyano-4-hydroxycinnamic acid",
                   "Caffeic acid - burdock, hawthorn, artichoke, pear, basil, thyme, oregano, apple",
                   "Cichoric acid",
@@ -75,11 +70,11 @@ Peru.Economy<-WDI.Data[grep("Peru",WDI.Data$`Country Name`),]
 
 #-------------------------------References------------------------------------------------
 
-Reference.1<-c('de la Rosa L.A., Alvarez-Parrilla E., Gonzàlez-Aguilar G.A.',
+Reference.1<-c('de la Rosa L.A., Alvarez-Parrilla E., GonzÃ lez-Aguilar G.A.',
                 'Fruit and vegetable phytochemicals: chemistry, nutritional value, and stability.',
                 '1th Edition. Wiley J. & Sons, Inc., Publication, 2010')
 
-Reference.2<-c("Manach C., Scalbert A., Morand C., Rémésy C., and Jime´nez L.", 
+Reference.2<-c("Manach C., Scalbert A., Morand C., RÃ©mÃ©sy C., and JimeÂ´nez L.", 
                "Polyphenols: food sources and bioavailability.", 
                 "Am J Clin Nutr 2004;79(5):727-47.")
 
