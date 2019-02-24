@@ -1,16 +1,19 @@
-library(xtable)
-library(readxl)
-library(readr)
+#-----------------------------R Code To Modify in the Classroom Lecture with Students-----------------------
+#-----------------------------R API -------------------------------------------------------------------
+library(xtable);library(readxl);library(readr)
 #-------------------------------------Data---------------------------------------------------------------
 
 #-------------------------------------Human Development Index-------------------------------------
 
+#--------------------------------------Data for the Classroom Lecture-----------------------------
 X2016_Statistical_Annex_Table_2 <- as.data.frame(read_excel("2016_Statistical_Annex_Table_2.xls"))
-View(X2016_Statistical_Annex_Table_2)
 countries<-X2016_Statistical_Annex_Table_2$`Table 2. Human Development Index Trends, 1990-2015`[6:189]
 Nepal <- read_delim("Nepal.csv", " ", escape_double = FALSE, trim_ws = TRUE)
 HDI <- read_csv("HDI.csv")
+#-------------------------------View Table for Sorting and Filtering------------------------------
+View(Nepal)
 View(HDI)
+View(X2016_Statistical_Annex_Table_2)
 
 #--------------------------------------Read Article Notes----------------------------------------
 article.summary<-NULL
