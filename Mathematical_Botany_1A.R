@@ -27,7 +27,7 @@ plant.genera<-c("Apiaceae",
                 "tree")
 
 BIEN_taxonomy_family(plant.genera[5])
-plant.brassica.trait<-BIEN_trait_family(plant.genera[6])
+plant.brassica.trait<-BIEN_trait_family(plant.genera[5])
 
 plant.brassica.trait.df<-as.data.frame(plant.brassica.trait)
 
