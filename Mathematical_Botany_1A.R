@@ -32,6 +32,19 @@ plant.brassica.trait<-BIEN_trait_family(plant.genera[5])
 plant.brassica.trait.df<-as.data.frame(plant.brassica.trait)
 
 
+Japan.df<-as.data.frame(BIEN_list_country("Japan"))
+china.df<-as.data.frame(BIEN_list_country("China"))
+Nepal.df<-as.data.frame(BIEN_list_country("Nepal"))
+Italy.df<-as.data.frame(BIEN_list_country("Italy")) 
+France.df<-as.data.frame(BIEN_list_country("France"))
+England.df<-as.data.frame(BIEN_list_country("England"))
+Arizona.df<-as.data.frame(BIEN_list_country("Arizona"))
+Mexico.df<-as.data.frame(BIEN_list_country("Mexico"))
+Argentina.df<-as.data.frame(BIEN_list_country("Argentina"))
+Brazil.df<-as.data.frame(BIEN_list_country("Brazil"))
+Chile.df<-as.data.frame(BIEN_list_country("Chile"))
+Peru.df<-as.data.frame(BIEN_list_country("Peru"))
+Venezuela.df<-as.data.frame(BIEN_list_country("Venezuela"))
 
 
 
