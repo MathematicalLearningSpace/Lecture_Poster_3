@@ -1,1 +1,11 @@
 Title: List of Recipe Compositions for Classroom Lecture Model Series Courses
+%---------------------------Example Recipes Used in Lecture Examples-------------------------------------
+\begin{table}[H]\tiny
+	\caption{List of Recipe Designs}
+\begin{tabular}{p{1cm}p{1cm}p{2cm}p{1cm}p{1cm}}
+		\hline	
+		RecipeID & Name & Description & LectureID & Comment \\
+		\hline 
+		\hline
+\end{tabular}
+\end{table}
