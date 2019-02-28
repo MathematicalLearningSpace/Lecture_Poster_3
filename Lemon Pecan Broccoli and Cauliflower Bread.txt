@@ -1,0 +1,28 @@
+Title: Lemon Pecan Broccoli and Cauliflower Bread 
+
+a & 2 & tbl & Lemon Extract \\
+c & 2 & cup of Flour \\
+d & 3 & medium & Eggs \\
+e & 1.75 & cup & Water \\
+f & 3 & tbl &  Honey \\
+g & 0.5 & cup & Pecans \\
+h & 0.5 & cup & Flax Seeds \\
+i & 1 & tbl & Baking Powder \\
+j & 5 & packets & Stevia Sweetner \\
+k & 1 & cup & Broccoli \\
+l & 1 & cup & Cauliflower \\
+m & 1 & cup & Zucchini \\
+n & 1 & tbl & Basil \\
+o & 1 & tbl & Garlic Powder \\
+p & 1 & tbl & Onion Powder \\
+q & 1 & tbl & Paprika \\
+
+\item Mix A=a,b,c,d,f,h,i,j,k,l
+\item Mix e and A with Baker's Ratio for Texture Preference
+\item Pour 1/2 of A for  First Layer A in Bread Pan with Coconut Oil Spray
+\item Add m to middle of A for Layer B
+\item Add n,o,p,q for Layer B
+\item Pour 1/2 of A for Layer C
+\item Add g,h to Layer C
+\item Bake 350 degrees for N minutes Preference 
+\item Serve
