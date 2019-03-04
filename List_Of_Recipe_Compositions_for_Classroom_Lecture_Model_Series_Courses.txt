@@ -2,10 +2,14 @@ Title: List of Recipe Compositions for Classroom Lecture Model Series Courses
 %---------------------------Example Recipes Used in Lecture Examples-------------------------------------
 \begin{table}[H]\tiny
 	\caption{List of Recipe Designs}
-\begin{tabular}{p{1cm}p{1cm}p{2cm}p{1cm}p{1cm}}
+\begin{tabular}{p{0.5cm}p{2cm}p{1cm}p{1cm}p{2cm}}
 		\hline	
 		RecipeID & Name & Description & LectureID & Comment \\
 		\hline 
+		A & Lemon Pecan Broccoli and Cauliflower Bread & Bread & Course.A.Lecture.A.1 & \\
+		B & Lemon_Vanilla_Pecan_Celebration_Bread_Milk_Chocolate & Bread & Course.A.Lecture.A.1 & \\
+		C & Norimaki_1 & Seaweed & Course.A.Lecture.A.1 & \\
+		D & Mathematics_Artisian_Bread_1 & Course.A.Lecture.A.1 & \\
 		\hline
 \end{tabular}
 \end{table}
