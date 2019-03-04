@@ -117,11 +117,19 @@ plant.Species.Collection<-list(
   plant.Sapindaceae.trait.df,
   plant.tree.trait.df)
   
+species<-"Aegopodium podagraria"
+View(plant.Apiaceae.trait.df)
+plant.Apiaceae.trait.Aegopodium.podagraria.df<-plant.Apiaceae.trait.df[grep("Aegopodium podagraria",plant.Apiaceae.trait$scrubbed_species_binomial),]
+View(plant.Apiaceae.trait.Aegopodium.podagraria.df)
+plant.Apiaceae.trait.Aegopodium.podagraria.Feature.A.df<-plant.Apiaceae.trait.Aegopodium.podagraria.df[grep("leaf area per leaf dry mass",plant.Apiaceae.trait.Aegopodium.podagraria.df$trait_name),]
+
 
 #--------------------------------Tables-----------------------------------
 
 
 #--------------------------------Figures-----------------------------------
+Figure.1<-hist(as.numeric(plant.Apiaceae.trait.Aegopodium.podagraria.Feature.A.df$trait_value))
+
 
 #-------------Function Template Library for Classroom Presentation and Modification---------------------
 f.1<-function(X)
