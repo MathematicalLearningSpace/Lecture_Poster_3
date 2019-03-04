@@ -69,11 +69,54 @@ Peru.df<-as.data.frame(BIEN_list_country("Peru"))
 Venezuela.df<-as.data.frame(BIEN_list_country("Venezuela"))
 
 #--------------------------------Formatted Students Notes for the Classroom--------------------
-Brassicaceace_Genera_Copy_Plant_Immune_System <- read_csv("Brassicaceace Genera Copy Plant Immune System.txt", 
-                                                          col_names = FALSE)
+Brassicaceace_Genera_Copy_Plant_Immune_System <- read_csv("Brassicaceace Genera Copy Plant Immune System.txt", col_names = FALSE)
 View(Brassicaceace_Genera_Copy_Plant_Immune_System)
-
 Brassica.df<-data.frame(Brassicaceace_Genera_Copy_Plant_Immune_System)
+
+plant.Apiaceae.trait.df<-as.data.frame(plant.Apiaceae.trait)
+plant.Araceae.trait.df<-as.data.frame(plant.Araceae.trait)
+plant.Arecaceae.trait.df<-as.data.frame(plant.Arecaceae.trait)
+plant.Asteraceae.trait.df<-as.data.frame(plant.Asteraceae.trait)
+plant.Brassicaceae.trait.df<-as.data.frame(plant.Brassicaceae.trait)
+plant.Commelinaceae.trait.df<-as.data.frame(plant.Commelinaceae.trait)
+plant.Ericaceae.trait.df<-as.data.frame(plant.Ericaceae.trait)
+plant.Liliaceae.trait.df<-as.data.frame(plant.Liliaceae.trait)
+plant.Amaryllidoideae.trait.df<-as.data.frame(plant.Amaryllidoideae.trait)
+plant.Clusiaceae.trait.df<-as.data.frame(plant.Clusiaceae.trait)
+plant.Euphorbiaceae.trait.df<-as.data.frame(plant.Euphorbiaceae.trait)
+plant.Phyllanthaceae.trait.df<-as.data.frame(plant.Phyllanthaceae.trait)
+plant.Picrodendraceae.trait.df<-as.data.frame(plant.Picrodendraceae.trait)
+plant.Apocynaceae.trait.df<-as.data.frame(plant.Apocynaceae.trait)
+plant.Orchidaceae.trait.df<-as.data.frame(plant.Orchidaceae.trait)
+plant.Poaceae.trait.df<-as.data.frame(plant.Poaceae.trait)
+plant.Rosaceae.trait.df<-as.data.frame(plant.Rosaceae.trait)
+plant.Rubiaceae.trait.df<-as.data.frame(plant.Rubiaceae.trait)
+plant.Rutaceae.trait.df<-as.data.frame(plant.Rutaceae.trait)
+plant.Sapindaceae.trait.df<-as.data.frame(plant.Sapindaceae.trait)
+plant.tree.trait.df<-as.data.frame(plant.tree.trait)
+
+plant.Species.Collection<-list(
+  plant.Apiaceae.trait.df,
+  plant.Araceae.trait.df,
+  plant.Arecaceae.trait.df,
+  plant.Asteraceae.trait.df,
+  plant.Brassicaceae.trait.df,
+  plant.Commelinaceae.trait.df,
+  plant.Ericaceae.trait.df,
+  plant.Liliaceae.trait.df,
+  plant.Amaryllidoideae.trait.df,
+  plant.Clusiaceae.trait.df,
+  plant.Euphorbiaceae.trait.df,
+  plant.Phyllanthaceae.trait.df,
+  plant.Picrodendraceae.trait.df,
+  plant.Apocynaceae.trait.df,
+  plant.Orchidaceae.trait.df,
+  plant.Rosaceae.trait.df,
+  plant.Rubiaceae.trait.df,
+  plant.Rutaceae.trait.df,
+  plant.Sapindaceae.trait.df,
+  plant.tree.trait.df)
+  
 
 #--------------------------------Tables-----------------------------------
 
