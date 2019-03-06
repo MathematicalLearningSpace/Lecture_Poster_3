@@ -1,0 +1,21 @@
+Title: Rice and Beans with Basil, Onion and Celery
+
+a &  & & Long Grain Rice \\
+b &  &  & Water \\
+c & 1 & can & Black Beans \\
+d & 1 & cup & Celery \\
+e1 & 2 & tbl & Pepper \\
+e2 & 3 & tbl & Basil \\
+e3 & 3 & tbl & Garlic Powder \\
+e4 & 3 & tbl & Onion Powder \\
+e5 & 2 & tbl & Paprika \\
+e6 & 2 & tbl & Cilantro \\
+e7 & 2 & tbl & Parsely \\
+
+\item Mix A=a,b,e_{1-7} with Approximate Water Rice Ratio 2:1 in Pan with Cover 
+\item Change Temperature to High at $t_{0}$
+\item Change Temperature From High to Low in Boil State at $t_{1}$
+\item At $t_{2}$ with State Change of No Water Add Black Beans on top and Cover
+\item At $t_{3}$ Mix Rice and Beans and Cover
+\item At $t_{4}$ Add Celery and Cover
+\item At $t_{5}$ Serve with Honey 
