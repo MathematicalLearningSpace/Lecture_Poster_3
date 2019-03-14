@@ -1,8 +1,6 @@
+#-------------------Global Innovation Index Example For Classroom Discussion---------------
 library(readr)
-
-
 #----------------------------------------------Data------------------------------------------
-
 Analysis_2019mar13205242.df <- as.data.frame(read_csv("Global Innovation Index/Analysis_2019mar13205242.csv"))
 
 GII.Categories<-Analysis_2019mar13205242.df$X2
