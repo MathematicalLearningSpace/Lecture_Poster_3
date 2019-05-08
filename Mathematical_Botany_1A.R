@@ -151,3 +151,18 @@ f.1<-function(X)
  } 
 test.f.1<-f.1(letters)
 test.f.1
+
+#----------------Student Assignments-----------------------------------------------#
+#----------------To be Designed by Students----------------------------------------#
+Module.1.Search<-function(X)
+{
+  
+  
+output<-list()
+output$X<-X
+return(output)
+
+}
+
+test.Module.1.Search("1")
+test.Module.1.Search
