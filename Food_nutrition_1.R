@@ -42,3 +42,19 @@ f.1<-function(X,Y,keyword,keyword.2,Visualization=FALSE)
 test.f.1<-f.1(Products.df,Nutrients.df,"Coffee",Nutrients.df$Nutrient_name[7],TRUE)
 test.f.1
 
+#----------------Student Assignments----------------------------------------------------------------#
+#----------------To be Designed by Students in the Classroom----------------------------------------#
+
+Module.1.Recommender<-function(X)
+{
+  
+  
+output<-list()
+output$X<-X
+return(output)
+
+}
+
+test.Module.1.Search("1")
+test.Module.1.Search
+
