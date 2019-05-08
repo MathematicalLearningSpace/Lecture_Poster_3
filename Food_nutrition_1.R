@@ -55,6 +55,6 @@ return(output)
 
 }
 
-test.Module.1.Search("1")
-test.Module.1.Search
+test.Module.1.Recommender("1")
+test.Module.1.Recommender
 
