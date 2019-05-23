@@ -1,5 +1,10 @@
 Title: Lemon Pecan Broccoli and Cauliflower Bread 
 
+\begin{table}[H]
+	\begin{tabular}{rlll}
+		\hline
+		ID & Amount & Unit & Description \\ 
+		\hline
 a & 2 & tbl & Lemon Extract \\
 c & 2 & cup of Flour \\
 d & 3 & medium & Eggs \\
@@ -16,7 +21,10 @@ n & 1 & tbl & Basil \\
 o & 1 & tbl & Garlic Powder \\
 p & 1 & tbl & Onion Powder \\
 q & 1 & tbl & Paprika \\
+\end{tabular}
+\end{table}
 
+\begin{enumerate}
 \item Mix A=a,b,c,d,f,h,i,j,k,l
 \item Mix e and A with Baker's Ratio for Texture Preference
 \item Pour 1/2 of A for  First Layer A in Bread Pan with Coconut Oil Spray
@@ -26,3 +34,4 @@ q & 1 & tbl & Paprika \\
 \item Add g,h to Layer C
 \item Bake 350 degrees for N minutes Preference 
 \item Serve
+\end{enumerate}
