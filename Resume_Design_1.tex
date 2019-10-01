@@ -1,6 +1,6 @@
 %-----------------------------------To Be Updated for Classroom Examples--------------
 %-------------------------------------------------------------------------------------
-\documentclass{ResumeDesignFormat1}
+\documentclass{ResumeDesignFormat2}
 \usepackage[english]{babel}
 \usepackage{marginnote}
 \usepackage{tikz}
@@ -9,6 +9,9 @@
 \usetikzlibrary{backgrounds}
 \usepackage{tkz-berge}
 \usepackage{sectsty}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+\fontsize{12}{15}
 \sectionfont{\footnotesize}
 \subsectionfont{\Large}
 \subsubsectionfont{\large}
@@ -23,19 +26,19 @@
 \definecolor{greenish}{rgb}{0.565,1,0.886}
 \definecolor{darkgray}{rgb}{0.15,0.15,0.15} 
 \definecolor{lightgray}{rgb}{0.6,0.6,0.6}
-\graphicspath{{Figures/}}
-
+\definecolor{shizen}{RGB}{242,246,246}
+\graphicspath{{Figures/1/}}
 \begin{document}
-\pagecolor{purple!2}
+\pagecolor{shizen!1}	
 %-------------------------------------------------------------------------------------------%
 %----------------------------------------Contact Information--------------------------------%
 %-------------------------------------------------------------------------------------------%
 %-------------------------------------------------------------------------------------------%
-Jeff Cromwell PhD
+\stringBox{\Fontskrivan\slshape\{Jeff Cromwell PhD}}
 Linked In: https://www.linkedin.com/in/jeff-cromwellphd/
 
 \section{Introduction}
-
+\stringBox{\Fontskrivan\slshape\{Introduction goes here.}}
 %-------------------------------------------------------------------------------------------%
 %----------------------------------------Figure1--------------------------------------------% 
 %-------------------------------------------------------------------------------------------%
@@ -49,7 +52,8 @@ Linked In: https://www.linkedin.com/in/jeff-cromwellphd/
 %-------------------------------------------------------------------------------------------%
 \section{\centerline{\textcolor{c2}{Professional Summary}}}
 %-------------------------------------------------------------------------------------------%
-\input{/Summary/ProfessionalSummaryAcademic}
+\stringBox{\Fontskrivan\slshape\{Academic and Professional Summary string goes here.}}
+%\input{/Summary/ProfessionalSummaryAcademic}}
 %-------------------------------------------------------------------------------------------%
 %-------------------------------------------------------------------------------------------%
 %----------------------------------------Jobs Section---------------------------------------%
@@ -73,6 +77,7 @@ Linked In: https://www.linkedin.com/in/jeff-cromwellphd/
 %---------------------------------------------------------------------------------------------------%
 
 \section{University Research and Teaching Positions}
+\stringBox{\Fontskrivan\slshape\{Figure Description goes here.}}
 \begin{table}[H]
 \small
 \centering
@@ -91,6 +96,7 @@ Linked In: https://www.linkedin.com/in/jeff-cromwellphd/
 %----------------------------------------Education Section----------------------------------%
 %-------------------------------------------------------------------------------------------%
 \section{Education}
+\stringBox{\Fontskrivan\slshape\{Figure Description goes here.}}
 
 \begin{enumerate}
 \item{2004}{Ph.D. Natural Resource Economics- \textcolor{c5}{Emphasis: Nonlinear Time Series Analysis and Chaos Theory}}{West Virginia University} 
@@ -101,7 +107,9 @@ Linked In: https://www.linkedin.com/in/jeff-cromwellphd/
 %-------------------------------------------------------------------------------------------%
 %------------------------Lecture Posters and Programs Section-------------------------------%
 %-------------------------------------------------------------------------------------------%
-\section{Lectures}
+\section{Lectures and Articles}
+\stringBox{\Fontskrivan\slshape\{In this section based on course 1 in the Mathematical Learning Space these examples are representations of articles from the courses.  Here the 3500 words 3 page 2 column data structure in XML,HTML and TeX with 3 tables and a 3 x 3 matrix of figures is the design pattern for scientific communication.}}
+
 %-------------------------------Examples for Course 1---------------------------------------%
 \subsection{Course 1: Differential Equations in Mathematical Biology, Botany, Chemistry and Oncology}
 
@@ -119,7 +127,7 @@ Linked In: https://www.linkedin.com/in/jeff-cromwellphd/
 \end{enumerate}
 
 \subsubsection{Journal Articles from Course 1}
-
+\stringBox{\Fontskrivan\slshape\{Figure Description goes here.}}
 \begin{enumerate}
 \item Lecture 1-3 Article: 
 \item Lecture 4-6 Article: 
@@ -150,7 +158,7 @@ Linked In: https://www.linkedin.com/in/jeff-cromwellphd/
 \end{enumerate}
 
 \subsubsection{Journal Articles from Course 2}
-
+\stringBox{\Fontskrivan\slshape\{Figure Description goes here.}}
 \begin{enumerate}
 \item Lecture 1-3 Article: 
 \item Lecture 4-6 Article: 
@@ -166,7 +174,6 @@ Linked In: https://www.linkedin.com/in/jeff-cromwellphd/
 
 %-------------------------------Examples for Course 3---------------------------------------%
 \subsection{Course 3: Molecular Machine Learning with Topological Dynamics for Compound Discovery in Organelles}
-
 \begin{enumerate}
 \item \href{http://mathlearningspace.weebly.com/course-3.html}{\textcolor{c5}{Classroom Lecture 1-3 Topics: Ribosome ER Smooth and Rough}}}
 \item Classroom Lecture 4-6 Topics:  Translation and Transcription Models
@@ -181,7 +188,7 @@ Linked In: https://www.linkedin.com/in/jeff-cromwellphd/
 \end{enumerate}
 
 \subsubsection{Journal Articles from Course 3}
-
+\stringBox{\Fontskrivan\slshape\{Figure Description goes here.}}
 \begin{enumerate}
 \item Lecture 1-3 Article: 
 \item Lecture 4-6 Article: 
@@ -212,7 +219,7 @@ Linked In: https://www.linkedin.com/in/jeff-cromwellphd/
 \end{enumerate}
 
 \subsubsection{Journal Articles from Course 4}
-
+\stringBox{\Fontskrivan\slshape\{Figure Description goes here.}}
 \begin{enumerate}
 \item Lecture 1-3 Article: 
 \item Lecture 4-6 Article: 
@@ -229,6 +236,7 @@ Linked In: https://www.linkedin.com/in/jeff-cromwellphd/
 %-----------------------------------------Publications Section------------------------------%
 %-------------------------------------------------------------------------------------------%
 \section{Publications}
+\stringBox{\Fontskrivan\slshape\{Research Vision Statement goes here.}}
 \begin{table}[ht]
 \footnotesize
 \centering
@@ -275,7 +283,7 @@ IJC & {\href{http://mathlearningspace.weebly.com/}{\textcolor{c5}{Indian Journal
 %-----------------Scientific Visualization Portfolio Section--------------------------------%
 %-------------------------------------------------------------------------------------------%
 \section{Scientific Visualization Portfolio}
-
+\stringBox{\Fontskrivan\slshape\{Figure Description goes here.}}
 \begin{enumerate}
 \item Diagram A \textcolor{c4}{Caption:}
 \end{enumerate}
@@ -292,6 +300,7 @@ IJC & {\href{http://mathlearningspace.weebly.com/}{\textcolor{c5}{Indian Journal
 %----------------------------------------------------------------------------------------------------------------------------------------%
 %--------------------------------Graphics Design:Article Examples------------------------------------------------------------------------%
 %----------------------------------------------------------------------------------------------------------------------------------------%
+\stringBox{\Fontskrivan\slshape\{Figure Description goes here from the articles}}
 \vspace{6pt}
 \begin{figure}[h]
 	\centering
@@ -319,6 +328,64 @@ IJC & {\href{http://mathlearningspace.weebly.com/}{\textcolor{c5}{Indian Journal
 	\label{fig:Figure5}
 \end{figure}
 
+\section{\textcolor{black}{A:Portfolio of Differential Equation Research}}
+
+\testBox{\Fontskrivan\slshape{In Figure 1 from Course N Lecture N Article 1, Figure 2 displays from Course N Lecture N Article 2, Figure 3 is an example from Course N Lecture N Article 3,
+Figure 4 is an example from Course N Lecture N Article 4, Figure 5 is an example from Course N Lecture N Article 5, Figure 6 is an example from Course N Lecture N Article 6,
+Figure 7 is an example from Course N Lecture N Article 7, Figure 8 is an example from Course N Lecture N Article 8, Figure 9 is an example from Course N Lecture N Article 9}}
+
+\begin{figure}[h]
+\centering
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[scale=0.15]{Example_1_Figure_1.png}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[scale=0.15]{Example_1_Figure_2.png}
+\end{minipage}\hfill	
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[scale=0.15]{Example_1_Figure_3.png}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[scale=0.15]{Example_1_Figure_4.png}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[scale=0.15]{Example_1_Figure_5.png}
+\end{minipage}\hfill	
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[scale=0.15]{Example_1_Figure_6.png}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[scale=0.15]{Example_1_Figure_7.png}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[scale=0.15]{Example_1_Figure_2.png}
+\end{minipage}\hfill	
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[scale=0.15]{Example_1_Figure_3.png}
+\end{minipage}\hfill
+\caption{(a) (b) (c) (d) (e) (f) (g) (h) (i) }
+\label{fig:Figure1}
+\end{figure} 
+
+\section{\textcolor{black}{B:Portfolio of Research Work in Music Composition}}
+
+\testBox{\Fontskrivan\slshape{In Figure 1 from Article 1, Figure 2 displays from Article 2, Figure 3 is an example from Article 3}}
+\begin{figure}[h]
+\centering
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[scale=0.15]{Example_1_Figure_1.png}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[scale=0.15]{Example_1_Figure_5.png}
+\end{minipage}\hfill	
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[scale=0.15]{Example_1_Figure_7.png}
+\end{minipage}\hfill
+\caption{(a) (b) (c) }
+\label{fig:Figure1}
+\end{figure} 
+
+\newpage
 %-------------------------------------------------------------------------------------------%
 %-------------------------------------------Awards Section----------------------------------%
 %-------------------------------------------------------------------------------------------%
